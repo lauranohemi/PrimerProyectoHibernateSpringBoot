@@ -38,7 +38,10 @@ public class VehiculoTest {
 		//Aqui se guarda el objeto vehiculo en bd
 		vehiculoRepository.save(vehiculo);
 	}
-	
-	
+	@Test
+	public void testGuardarVehiculoConAccesorios() {
+		Accesorio accesorio= new Accesorio("aleron");
+		
+	}
 
 }
